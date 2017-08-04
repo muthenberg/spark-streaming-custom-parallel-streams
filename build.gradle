@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.apache.spark:spark-streaming_2.11:2.2.0'
+    implementation 'org.apache.spark:spark-streaming-kafka-0-8_2.11:2.2.0'
+}
+
